@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
+  root 'furnitures#index'
+  resources :furnitures
 
-  resources :furniture, only: %i(index)
-  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
