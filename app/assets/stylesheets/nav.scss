@@ -142,8 +142,15 @@
 /*---------------------------------------------------------------------*/
 /* NAVIGATION - CENTER MENU
 /*---------------------------------------------------------------------*/
-.nav .navbar-nav{
+.navbar.navbar-fixed-top.center-menu .navbar-nav {
+  float: none;
+  text-align: center;
   margin-top: auto;
+}
+
+.navbar.navbar-fixed-top.center-menu .navbar-nav > li {
+  float: none;
+  display: inline-block;
 }
 
 //@media (min-width: 992px) {
