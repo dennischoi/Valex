@@ -142,10 +142,15 @@
 /*---------------------------------------------------------------------*/
 /* NAVIGATION - CENTER MENU
 /*---------------------------------------------------------------------*/
+.nav .navbar-nav{
+  margin-top: auto;
+}
+
 @media (min-width: 992px) {
   .navbar.navbar-fixed-top.center-menu .navbar-nav {
     float: none;
     text-align: center;
+    margin-top: auto;
   }
 }
 
