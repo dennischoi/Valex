@@ -154,6 +154,11 @@
   display: inline-block;
 }
 
+#home-click, #chair-click, #table-click, 
+#other-click, #designers-click {
+  padding: 1% 2%;
+}
+
 //@media (min-width: 992px) {
 //  .navbar.navbar-fixed-top.center-menu .navbar-nav {
 //    float: none;
