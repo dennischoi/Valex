@@ -5,7 +5,8 @@
 .homepage-dynamic-image {
   line-height: 0;
   position: relative;
-  top: 0;
+  top: -120px;
+  // Media Q for above for when mobile
   overflow: hidden;
     img {
       width: 100%;
