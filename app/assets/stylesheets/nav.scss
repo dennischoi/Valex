@@ -154,7 +154,7 @@
 }
 
 .navbar.navbar-fixed-top.center-menu .navbar-nav > li {
-  float: none;
+  float: left;
   display: inline-block;
 }
 
@@ -177,3 +177,15 @@
 //    display: inline-block;
 //  }
 //}
+
+
+.nav {
+  &__home {
+    width: 10%;
+    padding: 10px;
+    cursor: pointer;
+  }
+  &__home img {
+    width: 100%;
+  }
+}
