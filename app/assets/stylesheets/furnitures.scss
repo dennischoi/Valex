@@ -93,15 +93,15 @@
 }
 
 #products-container {
+  overflow: hidden;
   width: auto !important;
   margin-left: 24px;
   margin-right: 24px;
 }
 
-// .vx-col-block {
-//   width: 33.3333%;
-//   float: left;
-// }
+.vx-col-block {
+  overflow: hidden;
+}
 .product-float {
   padding: 1%;
   width: 33.3333%;
