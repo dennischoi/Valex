@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 # Font awesome 
 gem 'font-awesome-sass'
+# Bootstrap 4
+gem 'bootstrap'
+# Bootstrap JavaScript
+gem 'jquery-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
