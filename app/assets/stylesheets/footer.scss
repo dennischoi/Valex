@@ -39,9 +39,10 @@
 }
 
 // Instagram 
-.instagram {
+.instagram, .facebook {
 	&__contain {
 		overflow: hidden;
+		padding: 10px;
 	}
 	&__anchor {
 		color: #fff;
