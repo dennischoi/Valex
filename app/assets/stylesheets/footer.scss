@@ -17,13 +17,47 @@
 		text-align: left;
 		width: 25%;
 	}
+	&__company, &__media, &__aboutUs {
+		margin-bottom: 10px;
+		font-size: 1.3em;
+	}
 	// &__content2 {
 	// 	padding: 15px;
 	// }
+	&__media {
+
+	}
 	// &__content3 {
 	// 	padding: 15px;
 	// }
+	&__aboutUs {
+
+	}
 	// &__content4 {
 	// 	padding: 15px;
 	// }
+}
+
+// Instagram 
+.instagram {
+	&__contain {
+		overflow: hidden;
+	}
+	&__anchor {
+		color: #fff;
+	}
+	&__icon {
+		display: inline-block;
+		float: left;
+		cursor: pointer;
+	}
+	&__title {
+		display: inline-block;
+		line-height: 2em;
+		float: left;
+		padding-left: 15px;
+	}
+	&__content {
+		font-size: 18px;
+	}
 }
