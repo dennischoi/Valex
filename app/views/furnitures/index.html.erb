@@ -29,12 +29,21 @@
     </nav> -->
 
     <!-- new nav bar start below -->
-    <nav id="navigation__bar" class="navbar__fixed__top" role="navigation">
+    <nav id="navigation__bar" class="navbar__fixed__top col-xs-12" role="navigation">
       <div class="navbar">
         <div class="navbar">
           <ul class="navbar__list">
-            <li class="nav__home">
+            <li id="navitem__home">
               <%= image_tag('header-home.png') %>
+            </li>
+            <li id="navitem__chair" class="col-xs-12 col-md-2">
+              <a href="">Chairs</a>
+            </li>
+            <li id="navitem__table" class="col-xs-12 col-md-2">
+              <a href="">Tables</a>
+            </li>
+            <li id="navitem__desk" class="col-xs-12 col-md-2">
+              <a href="">Desks</a>
             </li>
           </ul>
         </div>
